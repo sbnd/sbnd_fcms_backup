@@ -1,0 +1,22 @@
+1) Unpack "backup-v.1.1" in the site root or copy the files from the archive in their coresponding folders in the site root.
+	For Example:
+	All .php files (located in: \cmp) have to be placed in cmp folder (located in:\cmp) of the site root.
+
+2) Create a component (Go to Control Panel(cp) -> System -> Components -> Add) and set the following values:
+
+	2.1) sytem name 			-> back-up
+	2.2) PHP Class Name 			-> cmp/back/Backup
+	2.3) public name 			-> Backup
+	2.4) Participate in Admin Menu Group 	-> check
+	
+3) Include lingual variables:
+
+	3.1) Go to Control Panel(cp) -> System -> Languages -> "Import from a File" (default English version is provided)
+	3.2) choose en.ini file
+	3.3) click "Import from file"
+		 
+4) In order for the Backup component to work a cron job that executes services/autobackup.php must be created. The service can also be accessed here: http://your_site_name/index.php?ajax=autobackup.
+
+That is all :)
+
+Thank you for your interest and enjoy SBND F&CMS - Framework & CMS for PHP developers.
