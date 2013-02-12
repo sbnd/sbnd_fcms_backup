@@ -1,11 +1,7 @@
-sbnd_fcms_backup
+Backup Component
 ================
+By using this component you can create a new database backup or revert / restore an old database version without MSQL client usage. Possibility to set a cronjob for the same activities.
 
-Backup package
-
-Package for easy creation of database backups and restore from backup files without using mysql client - manually or using cronjob.
-
-backend component(s) : YES 
-frontend component(s): NO 
+The component has a backend part only, accessible from backend login form : domain/cp  
 
 For more information: http://fcms.sbnd.net/
